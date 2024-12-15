@@ -4,9 +4,13 @@
   "description": "My personal prettier config",
   "main": "index.json",
   "author": "Guilherme Kauã",
-  "repository": "git@github.com:guikaua12/prettier-config.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/guikaua12/prettier-config.git"
+  },
   "license": "ISC",
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "registry": ""
   }
 }
