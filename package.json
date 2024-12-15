@@ -1,0 +1,11 @@
+{
+  "name": "@guikaua12/prettier-config",
+  "version": "1.0.1",
+  "description": "My personal prettier config",
+  "main": "index.json",
+  "author": "Guilherme Kauã",
+  "license": "ISC",
+  "publishConfig": {
+    "access": "public"
+  }
+}
