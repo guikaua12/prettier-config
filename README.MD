@@ -7,3 +7,11 @@ My personal prettier config
   "prettier": "@guikaua12/prettier-config"
 }
 ```
+
+or with prettier config file:
+`.prettierrc.js`:
+```js
+module.exports = {
+   ...require('@guikaua12/prettier-config')
+}
+```

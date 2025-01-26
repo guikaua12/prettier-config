@@ -1,8 +1,9 @@
 {
   "name": "@guikaua12/prettier-config",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "My personal prettier config",
-  "main": "index.json",
+  "main": "./.prettierrc.js",
+  "prettier": "./.prettierrc.js",
   "author": "Guilherme Kauã",
   "repository": {
     "type": "git",
@@ -12,5 +13,11 @@
   "publishConfig": {
     "access": "public",
     "registry": ""
+  },
+  "devDependencies": {
+    "prettier": "^3.4.2"
+  },
+  "peerDependencies": {
+    "prettier": "^3.4.2"
   }
 }
